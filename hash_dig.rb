@@ -11,3 +11,6 @@ sample_hash = {
       }
    }
 }
+
+sample_hash_array = sample_hash.fetch(:class)
+p sample_hash_array.fetch(:student)["marks"]["history"]
